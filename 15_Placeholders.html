@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col=12">
+                    <form>
+                        <!-- Text input with placeholder -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name"
+                                placeholder="Enter your name">
+                        </div>
+
+                        <!-- Email input with placeholder -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="Enter your email">
+                        </div>
+
+                        <!-- Password input with placeholder -->
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control"
+                                id="password" placeholder="Enter your password">
+                        </div>
+
+                        <!-- Textarea with placeholder -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+
+                        <!-- Select field with placeholder -->
+                        <div class="mb-3">
+                            <label for="country" class="form-label">Country</label>
+                            <select class="form-select" id="country"
+                                aria-label="Select your country">
+                                <option selected disabled>Choose a country</option>
+                                <option value="usa">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="uk">UK</option>
+                                <option value="australia">Australia</option>
+                            </select>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+
+
+                    <form>
+                        <!-- Text input with placeholder using span -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control"
+                                    id="name">
+                                <span class="input-placeholder">
+                                    <span class="wave" style="background-color:
+                                        #f8d7da;"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Email input with placeholder using span -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control"
+                                    id="email">
+                                <span class="input-placeholder">
+                                    <span class="wave" style="background-color:
+                                        #d4edda;"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Password input with placeholder using span -->
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control"
+                                    id="password">
+                                <span class="input-placeholder">
+                                    <span class="wave" style="background-color:
+                                        #cce5ff;"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Textarea with placeholder using span -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <div class="input-group">
+                                <textarea class="form-control" id="message"
+                                    rows="3"></textarea>
+                                <span class="input-placeholder">
+                                    <span class="wave" style="background-color:
+                                        #fff3cd;"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Select field with placeholder using span -->
+                        <div class="mb-3">
+                            <label for="country" class="form-label">Country</label>
+                            <div class="input-group">
+                                <select class="form-select" id="country">
+                                    <option selected disabled></option>
+                                    <option value="usa">USA</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="uk">UK</option>
+                                    <option value="australia">Australia</option>
+                                </select>
+                                <span class="input-placeholder">
+                                    <span class="wave" style="background-color:
+                                        #fff;"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>

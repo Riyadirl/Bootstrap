@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col=6">
+                    <!-- Button trigger modal -->
+                    <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#myModal">
+                        Open Modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                        class="modal fade"
+                        id="myModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <!-- Modal dialog -->
+                        <div class="modal-dialog">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <!-- Modal header -->
+                                <div class="modal-header">
+                                    <h5 class="modal-title"
+                                        id="exampleModalLabel">
+                                        Modal Title
+                                    </h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body d-flex flex-column
+                                    align-items-center">
+                                    <img src="https://via.placeholder.com/300"
+                                        alt="Placeholder Image"
+                                        class="img-fluid">
+                                    <p>This is the modal content.</p>
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button
+                                        type="button"
+                                        class="btn btn-danger"
+                                        data-bs-dismiss="modal">
+                                        Delete
+                                    </button>
+                                    <button type="button" class="btn
+                                        btn-primary">
+                                        Save changes
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>

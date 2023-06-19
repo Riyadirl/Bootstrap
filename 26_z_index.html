@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="opacity-25 bg-primary text-white">
+                <h2>Opacity Example</h2>
+                <p>This element has an opacity of 25%.</p>
+            </div>
+
+            <div class="position-relative">
+                <div class="position-absolute top-0 start-0 z-index-1 bg-primary
+                    text-white p-2">
+                    <h2>Position and Z-Index Example</h2>
+                    <p>This element is positioned absolutely and has a z-index
+                        of 1.</p>
+                </div>
+                <img src="placeholder.jpg" alt="Image" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="position-relative">
+                <div class="custom-element" style="z-index: 1;">
+                    <h2>Element 1</h2>
+                    <p>This element has a z-index of 1.</p>
+                </div>
+                <img src="https://via.placeholder.com/300" alt="Image 1"
+                    class="img-fluid">
+            </div>
+
+            <div class="position-relative">
+                <div class="custom-element" style="z-index: 2;">
+                    <h2>Element 2</h2>
+                    <p>This element has a higher z-index of 2.</p>
+                </div>
+                <img src="https://via.placeholder.com/300" alt="Image 2"
+                    class="img-fluid">
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>
